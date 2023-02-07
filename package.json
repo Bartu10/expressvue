@@ -2,5 +2,22 @@
   "dependencies": {
     "auth0": "^3.1.2",
     "express": "^4.18.2"
-  }
+  },
+  "name": "expressvue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bartu10/expressvue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bartu10/expressvue/issues"
+  },
+  "homepage": "https://github.com/Bartu10/expressvue#readme",
+  "description": ""
 }
