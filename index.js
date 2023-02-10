@@ -13,14 +13,16 @@ const teams = {
             "name": "Lewis Hamilton",
             "number": 44,
             "championships": 7,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 5
           },
           {
             "id" : 2,
             "name": "George Russell",
             "number": 63,
             "championships": 0,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion": 4.5
           }
         ]
       },
@@ -33,14 +35,16 @@ const teams = {
             "name": "Max Verstappen",
             "number": 33,
             "championships": 0,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 5
           },
           {
             "id" : 4,
             "name": "Sergio Perez",
             "number": 11,
             "championships": 0,
-            "continent" : "America"
+            "continent" : "America",
+            "puntuacion" : 4
           }
         ]
       },
@@ -53,14 +57,16 @@ const teams = {
             "name": "Charles Leclerc",
             "number": 44,
             "championships": 7,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 4.5
           },
           {
             "id" : 6,
             "name": "Carlos Sainz",
             "number": 77,
             "championships": 0,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 4
           }
         ]
       },
@@ -73,14 +79,16 @@ const teams = {
             "name": "Esteban Ocon",
             "number": 44,
             "championships": 7,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 3.5
           },
           {
             "id" : 8,
             "name": "Pierre Gasly",
             "number": 77,
             "championships": 0,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 2.5
           }
         ]
       },
@@ -93,14 +101,16 @@ const teams = {
             "name": "Lando Norris",
             "number": 44,
             "championships": 7,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 4
           },
           {
             "id" : 10,
             "name": "Oscar Piastri",
             "number": 77,
             "championships": 0,
-            "continent" : "Oceania"
+            "continent" : "Oceania",
+            "puntuacion" : 3
           }
         ]
       },
@@ -113,14 +123,16 @@ const teams = {
             "name": "Valtteri Botas",
             "number": 44,
             "championships": 7,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 4
           },
           {
             "id" : 12,
             "name": "Guanyu Zhou",
             "number": 77,
             "championships": 0,
-            "continent" : "Asia"
+            "continent" : "Asia",
+            "puntuacion" : 2.5
           }
         ]
       },
@@ -133,14 +145,16 @@ const teams = {
             "name": "Kevin Magnussen",
             "number": 44,
             "championships": 7,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 3
           },
           {
             "id" : 14,
             "name": "PEB",
             "number": 77,
             "championships": 0,
-            "continent" : "No"
+            "continent" : "No",
+            "puntuacion" : 0
           }
         ]
       },
@@ -153,14 +167,16 @@ const teams = {
             "name": "Yuri Tsunoda",
             "number": 44,
             "championships": 7,
-            "continent" : "Asia"
+            "continent" : "Asia",
+            "puntuacion" : 3
           },
           {
             "id" : 16,
             "name": "Nyck de Vries",
             "number": 77,
             "championships": 0,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 2.5
           }
         ]
       },
@@ -173,14 +189,16 @@ const teams = {
             "name": "Fernando Alonso",
             "number": 44,
             "championships": 7,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 5
           },
           {
             "id" : 18,
             "name": "Lance Stroll",
             "number": 77,
             "championships": 0,
-            "continent" : "Europe"
+            "continent" : "Europe",
+            "puntuacion" : 3.5
           }
         ]
       },
@@ -193,14 +211,16 @@ const teams = {
             "name": "Alexander Albon",
             "number": 44,
             "championships": 7,
-            "continent" : "Asia"
+            "continent" : "Asia",
+            "puntuacion" : 3
           },
           {
             "id" : 20,
             "name": "PEB",
             "number": 77,
             "championships": 0,
-            "continent" : "No"
+            "continent" : "No",
+            "puntuacion" : 0
           }
         ]
       },
