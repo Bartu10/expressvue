@@ -7,222 +7,62 @@ const teams = {
       { "id" : 1,
         "name": "Mercedes",
         "nationality": "Germany",
-        "drivers": [
-          {
-            "id" : 1,
-            "name": "Lewis Hamilton",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Europe",
-            "puntuacion" : 5
-          },
-          {
-            "id" : 2,
-            "name": "George Russell",
-            "number": 63,
-            "championships": 0,
-            "continent" : "Europe",
-            "puntuacion": 4.5
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2012/03/mercedes-f1-218x150.jpeg",
       },
       { "id" : 2,
         "name": "Red Bull Racing",
         "nationality": "Austria",
-        "drivers": [
-          {
-            "id" : 3,
-            "name": "Max Verstappen",
-            "number": 33,
-            "championships": 0,
-            "continent" : "Europe",
-            "puntuacion" : 5
-          },
-          {
-            "id" : 4,
-            "name": "Sergio Perez",
-            "number": 11,
-            "championships": 0,
-            "continent" : "America",
-            "puntuacion" : 4
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2012/01/red-bull-f1-218x150.jpeg",
       },
       { "id" : 3,
         "name": "Ferrari",
         "nationality": "Italia",
-        "drivers": [
-          {
-            "id" : 5,
-            "name": "Charles Leclerc",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Europe",
-            "puntuacion" : 4.5
-          },
-          {
-            "id" : 6,
-            "name": "Carlos Sainz",
-            "number": 77,
-            "championships": 0,
-            "continent" : "Europe",
-            "puntuacion" : 4
-          }
-        ]
+        "puntuacion" : 4,
+        "logo": "https://www.formulaf1.es/wp-content/uploads/2012/01/147ferrari_logo.jpg",
       },
       { "id" : 4,
         "name": "Alpine",
         "nationality": "France",
-        "drivers": [
-          {
-            "id" : 7,
-            "name": "Esteban Ocon",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Europe",
-            "puntuacion" : 3.5
-          },
-          {
-            "id" : 8,
-            "name": "Pierre Gasly",
-            "number": 77,
-            "championships": 0,
-            "continent" : "Europe",
-            "puntuacion" : 2.5
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2016/03/alpine-f1-218x150.jpeg",
       },
       { "id" : 5,
         "name": "McLaren",
         "nationality": "Great Britain",
-        "drivers": [
-          {
-            "id" : 9,
-            "name": "Lando Norris",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Europe",
-            "puntuacion" : 4
-          },
-          {
-            "id" : 10,
-            "name": "Oscar Piastri",
-            "number": 77,
-            "championships": 0,
-            "continent" : "Oceania",
-            "puntuacion" : 3
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2012/03/logo-mclaren.jpg",
       },
       { "id" : 6,
         "name": "Alfa Romeo",
         "nationality": "Switzerland",
-        "drivers": [
-          {
-            "id" : 11,
-            "name": "Valtteri Botas",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Europe",
-            "puntuacion" : 4
-          },
-          {
-            "id" : 12,
-            "name": "Guanyu Zhou",
-            "number": 77,
-            "championships": 0,
-            "continent" : "Asia",
-            "puntuacion" : 2.5
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2019/02/alfa-1-e1554172483411-218x150.jpg",
       },
       { "id" : 7,
         "name": "Haas",
         "nationality": "USA",
-        "drivers": [
-          {
-            "id" : 13,
-            "name": "Kevin Magnussen",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Europe",
-            "puntuacion" : 3
-          },
-          {
-            "id" : 14,
-            "name": "PEB",
-            "number": 77,
-            "championships": 0,
-            "continent" : "No",
-            "puntuacion" : 0
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2016/03/HaasF1Team-Logo.jpg",
       },
       { "id" : 8,
         "name": "Alpha Tauri",
         "nationality": "Italia",
-        "drivers": [
-          {
-            "id" : 15,
-            "name": "Yuri Tsunoda",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Asia",
-            "puntuacion" : 3
-          },
-          {
-            "id" : 16,
-            "name": "Nyck de Vries",
-            "number": 77,
-            "championships": 0,
-            "continent" : "Europe",
-            "puntuacion" : 2.5
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2012/03/alphatauri-f1-218x150.jpeg",
       },
       { "id" : 9,
         "name": "Aston Martin",
         "nationality": "Great Britain",
-        "drivers": [
-          {
-            "id" : 17,
-            "name": "Fernando Alonso",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Europe",
-            "puntuacion" : 5
-          },
-          {
-            "id" : 18,
-            "name": "Lance Stroll",
-            "number": 77,
-            "championships": 0,
-            "continent" : "Europe",
-            "puntuacion" : 3.5
-          }
-        ]
+        "puntuacion" : 4,
+        "logo":"https://www.formulaf1.es/wp-content/uploads/2012/03/aston-martin-f1-218x150.png",
       },
       { "id" : 10,
         "name": "Williams",
         "nationality": "Germany",
-        "drivers": [
-          {
-            "id" : 19,
-            "name": "Alexander Albon",
-            "number": 44,
-            "championships": 7,
-            "continent" : "Asia",
-            "puntuacion" : 3
-          },
-          {
-            "id" : 20,
-            "name": "PEB",
-            "number": 77,
-            "championships": 0,
-            "continent" : "No",
-            "puntuacion" : 0
-          }
-        ]
+        "puntuacion" : 4,
+        "logo" : "https://www.formulaf1.es/wp-content/uploads/2012/03/williams-f1-218x150.jpeg",
       },
     ]
   }
@@ -247,17 +87,8 @@ const teams = {
     else res.send(country)
   })
 
-  app.get('/api/teams/pilots/:id', (req, res) => {
-    const pilot = teams.teams.find(c => c.drivers.find(e => e.id === parseInt(req.params.id)))
-    if (!pilot) return res.status(404).send('Equipo no encontrado')
-    else res.send(pilot.drivers.find(e => e.id === parseInt(req.params.id)))
-  })
 
-  app.get('/api/teams/pilots/continent/:continent', (req, res) => {
-    const pilot = teams.teams.filter(c => c.drivers.filter(e => e.continent === req.params.continent))
-    if (!pilot) return res.status(404).send('Equipo no encontrado')
-    else res.send(pilot.drivers.filter(e => e.continent === req.params.continent))
-  })     
+
 
 
   const port = 81;
