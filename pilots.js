@@ -24,8 +24,8 @@ const pilots = {
   {
     "id" : 3,
     "name": "Max Verstappen",
-    "number": 33,
-    "championships": 0,
+    "number": 1,
+    "championships": 2,
     "continent" : "Europe",
     "puntuacion" : 5,
     "team": "Red Bull Racing"
@@ -42,8 +42,8 @@ const pilots = {
   {
     "id" : 5,
     "name": "Charles Leclerc",
-    "number": 44,
-    "championships": 7,
+    "number": 16,
+    "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4.5,
     "team": "Ferrari"
@@ -51,7 +51,7 @@ const pilots = {
   {
     "id" : 6,
     "name": "Carlos Sainz",
-    "number": 77,
+    "number": 55,
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4,
@@ -60,8 +60,8 @@ const pilots = {
   {
     "id" : 7,
     "name": "Esteban Ocon",
-    "number": 44,
-    "championships": 7,
+    "number": 31,
+    "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 3.5,
     "team": "Alpine"
@@ -69,7 +69,7 @@ const pilots = {
   {
     "id" : 8,
     "name": "Pierre Gasly",
-    "number": 77,
+    "number": 10,
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 2.5,
@@ -78,8 +78,8 @@ const pilots = {
   {
     "id" : 9,
     "name": "Lando Norris",
-    "number": 44,
-    "championships": 7,
+    "number": 4,
+    "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4,
     "team": "McLaren"
@@ -87,7 +87,7 @@ const pilots = {
   {
     "id" : 10,
     "name": "Oscar Piastri",
-    "number": 77,
+    "number": 81,
     "championships": 0,
     "continent" : "Oceania",
     "puntuacion" : 3,
@@ -95,9 +95,9 @@ const pilots = {
   },
   {
     "id" : 11,
-    "name": "Valtteri Botas",
-    "number": 44,
-    "championships": 7,
+    "name": "Valtteri Bottas",
+    "number": 77,
+    "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4,
     "team": "Alfa Romeo"
@@ -105,7 +105,7 @@ const pilots = {
   {
     "id" : 12,
     "name": "Guanyu Zhou",
-    "number": 77,
+    "number": 24,
     "championships": 0,
     "continent" : "Asia",
     "puntuacion" : 2.5,
@@ -114,16 +114,16 @@ const pilots = {
   {
     "id" : 13,
     "name": "Kevin Magnussen",
-    "number": 44,
-    "championships": 7,
+    "number": 20,
+    "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 3,
     "team": "Haas"
   },
   {
     "id" : 14,
-    "name": "PEB",
-    "number": 77,
+    "name": "Nico Hulkenberg",
+    "number": 27,
     "championships": 0,
     "continent" : "No",
     "puntuacion" : 0,
@@ -132,8 +132,8 @@ const pilots = {
   {
     "id" : 15,
     "name": "Yuri Tsunoda",
-    "number": 44,
-    "championships": 7,
+    "number": 22,
+    "championships": 0,
     "continent" : "Asia",
     "puntuacion" : 3,
     "team": "Alpha Tauri"
@@ -141,7 +141,7 @@ const pilots = {
   {
     "id" : 16,
     "name": "Nyck de Vries",
-    "number": 77,
+    "number": 21,
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 2.5,
@@ -150,8 +150,8 @@ const pilots = {
   {
     "id" : 17,
     "name": "Fernando Alonso",
-    "number": 44,
-    "championships": 7,
+    "number": 14,
+    "championships": 2,
     "continent" : "Europe",
     "puntuacion" : 5,
     "team": "Aston Martin"
@@ -159,7 +159,7 @@ const pilots = {
   {
     "id" : 18,
     "name": "Lance Stroll",
-    "number": 77,
+    "number": 18,
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 3.5,
@@ -168,16 +168,16 @@ const pilots = {
   {
     "id" : 19,
     "name": "Alexander Albon",
-    "number": 44,
-    "championships": 7,
+    "number": 23,
+    "championships": 0,
     "continent" : "Asia",
     "puntuacion" : 3,
     "team": "Williams"
   },
   {
     "id" : 20,
-    "name": "PEB",
-    "number": 77,
+    "name": "Logan Sargeant",
+    "number": 2,
     "championships": 0,
     "continent" : "No",
     "puntuacion" : 0,

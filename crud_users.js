@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const port = 82;
 
-const users = [];
+const users = [
+  {"name": "admin", "correo": "admin@admin.com", "password" : "admin", "favorites" : "Aston Martin"},
+];
 
 app.use(express.json());
 
@@ -18,7 +20,6 @@ app.get('/users', (req, res) => {
 
 app.get('/users/:id', (req, res) => {
   const user = users.find((user) => user.id === req.params.id);
-
   if (!user) {
     return res.status(404).send('User not found');
   }
