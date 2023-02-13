@@ -10,7 +10,8 @@ const pilots = {
     "championships": 7,
     "continent" : "Europe",
     "puntuacion" : 5,
-    "team": "Mercedes"
+    "team": "Mercedes",
+    "wins" : 103
   },
   {
     "id" : 2,
@@ -19,7 +20,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion": 4.5,
-    "team": "Mercedes"
+    "team": "Mercedes",
+    "wins" : 1
   },
   {
     "id" : 3,
@@ -28,7 +30,8 @@ const pilots = {
     "championships": 2,
     "continent" : "Europe",
     "puntuacion" : 5,
-    "team": "Red Bull Racing"
+    "team": "Red Bull Racing",
+    "wins" : 35
   },
   {
     "id" : 4,
@@ -37,7 +40,8 @@ const pilots = {
     "championships": 0,
     "continent" : "America",
     "puntuacion" : 4,
-    "team": "Red Bull Racing"
+    "team": "Red Bull Racing",
+    "wins" : 4
   },
   {
     "id" : 5,
@@ -46,7 +50,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4.5,
-    "team": "Ferrari"
+    "team": "Ferrari",
+    "wins" : 5
   },
   {
     "id" : 6,
@@ -55,7 +60,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4,
-    "team": "Ferrari"
+    "team": "Ferrari",
+    "wins" : 1
   },          
   {
     "id" : 7,
@@ -64,7 +70,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 3.5,
-    "team": "Alpine"
+    "team": "Alpine",
+    "wins" : 1
   },
   {
     "id" : 8,
@@ -73,7 +80,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 2.5,
-    "team": "Alpine"
+    "team": "Alpine",
+    "wins" : 1
   },
   {
     "id" : 9,
@@ -82,7 +90,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4,
-    "team": "McLaren"
+    "team": "McLaren",
+    "wins" : 0
   },
   {
     "id" : 10,
@@ -91,7 +100,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Oceania",
     "puntuacion" : 3,
-    "team": "McLaren"
+    "team": "McLaren",
+    "wins" : 0
   },
   {
     "id" : 11,
@@ -100,7 +110,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 4,
-    "team": "Alfa Romeo"
+    "team": "Alfa Romeo",
+    "wins" : 10
   },
   {
     "id" : 12,
@@ -109,7 +120,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Asia",
     "puntuacion" : 2.5,
-    "team": "Alfa Romeo"
+    "team": "Alfa Romeo",
+    "wins" : 0
   },
   {
     "id" : 13,
@@ -118,7 +130,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 3,
-    "team": "Haas"
+    "team": "Haas",
+    "wins" : 0
   },
   {
     "id" : 14,
@@ -127,7 +140,8 @@ const pilots = {
     "championships": 0,
     "continent" : "No",
     "puntuacion" : 0,
-    "team": "Haas"
+    "team": "Haas",
+    "wins" : 0
   },
   {
     "id" : 15,
@@ -136,7 +150,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Asia",
     "puntuacion" : 3,
-    "team": "Alpha Tauri"
+    "team": "Alpha Tauri",
+    "wins" : 0
   },
   {
     "id" : 16,
@@ -145,7 +160,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 2.5,
-    "team": "Alpha Tauri"
+    "team": "Alpha Tauri",
+    "wins" : 0
   },
   {
     "id" : 17,
@@ -154,7 +170,8 @@ const pilots = {
     "championships": 2,
     "continent" : "Europe",
     "puntuacion" : 5,
-    "team": "Aston Martin"
+    "team": "Aston Martin",
+    "wins" : 32
   },
   {
     "id" : 18,
@@ -163,7 +180,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Europe",
     "puntuacion" : 3.5,
-    "team": "Aston Martin"
+    "team": "Aston Martin",
+    "wins" : 0
   },
   {
     "id" : 19,
@@ -172,7 +190,8 @@ const pilots = {
     "championships": 0,
     "continent" : "Asia",
     "puntuacion" : 3,
-    "team": "Williams"
+    "team": "Williams",
+    "wins" : 0
   },
   {
     "id" : 20,
@@ -181,7 +200,8 @@ const pilots = {
     "championships": 0,
     "continent" : "No",
     "puntuacion" : 0,
-    "team": "Williams"
+    "team": "Williams",
+    "wins" : 0
   }
 ]}
 
@@ -191,7 +211,7 @@ app.get('/', (req, res) => {
 
   
 app.get('/api/pilots', (req, res) => {
-    res.send(pilots);
+  res.send(pilots.pilots);
   });
 
 app.get('/api/pilot/:id', (req, res) => {
