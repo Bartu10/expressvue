@@ -11,7 +11,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 5,
     "team": "Mercedes",
-    "wins" : 103
+    "wins" : 103,
+    "icon": "https://media.api-sports.io/formula-1/drivers/20.png"
   },
   {
     "id" : 2,
@@ -21,7 +22,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion": 4.5,
     "team": "Mercedes",
-    "wins" : 1
+    "wins" : 1,
+    "icon": "https://media.api-sports.io/formula-1/drivers/51.png"
   },
   {
     "id" : 3,
@@ -31,7 +33,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 5,
     "team": "Red Bull Racing",
-    "wins" : 35
+    "wins" : 35,
+    "icon": "https://media.api-sports.io/formula-1/drivers/25.png"
   },
   {
     "id" : 4,
@@ -41,7 +44,8 @@ const pilots = {
     "continent" : "America",
     "puntuacion" : 4,
     "team": "Red Bull Racing",
-    "wins" : 4
+    "wins" : 4,
+    "icon": "https://media.api-sports.io/formula-1/drivers/10.png"
   },
   {
     "id" : 5,
@@ -51,7 +55,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 4.5,
     "team": "Ferrari",
-    "wins" : 5
+    "wins" : 5,
+    "icon": "https://media.api-sports.io/formula-1/drivers/34.png"
   },
   {
     "id" : 6,
@@ -61,7 +66,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 4,
     "team": "Ferrari",
-    "wins" : 1
+    "wins" : 1,
+    "icon": "https://media.api-sports.io/formula-1/drivers/24.png"
   },          
   {
     "id" : 7,
@@ -71,7 +77,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 3.5,
     "team": "Alpine",
-    "wins" : 1
+    "wins" : 1,
+    "icon":"https://media.api-sports.io/formula-1/drivers/28.png"
   },
   {
     "id" : 8,
@@ -81,7 +88,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 2.5,
     "team": "Alpine",
-    "wins" : 1
+    "wins" : 1,
+    "icon": "https://media.api-sports.io/formula-1/drivers/36.png"
   },
   {
     "id" : 9,
@@ -91,7 +99,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 4,
     "team": "McLaren",
-    "wins" : 0
+    "wins" : 0,
+    "icon":"https://media.api-sports.io/formula-1/drivers/49.png"
   },
   {
     "id" : 10,
@@ -101,7 +110,8 @@ const pilots = {
     "continent" : "Oceania",
     "puntuacion" : 3,
     "team": "McLaren",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://s.yimg.com/ny/api/res/1.2/NBzsHNRWE.9rRqObtYC1xg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2022-08/d8ead070-16e6-11ed-abda-2de929dce684"
   },
   {
     "id" : 11,
@@ -111,7 +121,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 4,
     "team": "Alfa Romeo",
-    "wins" : 10
+    "wins" : 10,
+    "icon" : "https://media.api-sports.io/formula-1/drivers/5.png"
   },
   {
     "id" : 12,
@@ -121,7 +132,8 @@ const pilots = {
     "continent" : "Asia",
     "puntuacion" : 2.5,
     "team": "Alfa Romeo",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://media.api-sports.io/formula-1/drivers/83.png"
   },
   {
     "id" : 13,
@@ -131,7 +143,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 3,
     "team": "Haas",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://media.api-sports.io/formula-1/drivers/2.png"
   },
   {
     "id" : 14,
@@ -141,7 +154,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 0,
     "team": "Haas",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://media.api-sports.io/formula-1/drivers/6.png"
   },
   {
     "id" : 15,
@@ -151,7 +165,8 @@ const pilots = {
     "continent" : "Asia",
     "puntuacion" : 3,
     "team": "Alpha Tauri",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://media.api-sports.io/formula-1/drivers/82.png"
   },
   {
     "id" : 16,
@@ -159,9 +174,10 @@ const pilots = {
     "number": 21,
     "championships": 0,
     "continent" : "Europe",
-    "puntuacion" : 2.5,
+    "puntuacion" : 2,
     "team": "Alpha Tauri",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://media.api-sports.io/formula-1/drivers/88.png"
   },
   {
     "id" : 17,
@@ -171,7 +187,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 5,
     "team": "Aston Martin",
-    "wins" : 32
+    "wins" : 32,
+    "icon": "https://media.api-sports.io/formula-1/drivers/4.png"
   },
   {
     "id" : 18,
@@ -181,7 +198,8 @@ const pilots = {
     "continent" : "Europe",
     "puntuacion" : 3.5,
     "team": "Aston Martin",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://media.api-sports.io/formula-1/drivers/31.png"
   },
   {
     "id" : 19,
@@ -191,24 +209,25 @@ const pilots = {
     "continent" : "Asia",
     "puntuacion" : 3,
     "team": "Williams",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://media.api-sports.io/formula-1/drivers/50.png"
   },
   {
     "id" : 20,
     "name": "Logan Sargeant",
     "number": 2,
     "championships": 0,
-    "continent" : "America",
-    "puntuacion" : 0,
+    "continent" : "No",
+    "puntuacion" : 1.5,
     "team": "Williams",
-    "wins" : 0
+    "wins" : 0,
+    "icon": "https://staticv2.revistascratch.com//images/noticia/williams-da-la-oportunidad-a-logan-sargeant-de-subirse-al-fw44-en-los-libres-1-de-estados-unidos_full.jpg"
   }
 ]}
 
 app.get('/', (req, res) => {
     res.send('Node JS api');
   });
-
   
 app.get('/api/pilots', (req, res) => {
   res.send(pilots.pilots);
@@ -222,17 +241,11 @@ app.get('/api/pilot/:id', (req, res) => {
 });
 
 app.get('/api/pilot/team/:team', (req,res) => {
-    const team = pilots.pilots.filter(c => c.team == req.params.team);
-    if(!team) return res.status(404).send('Equipo no encontrado')
-    else res.send(team)
+    const country = pilots.pilots.filter(c => c.team == req.params.team);
+    if(!country) return res.status(404).send('Equipo no encontrado')
+    else res.send(country)
 })
-
-app.get('/api/pilot/continent/:continent', (req,res) => {
-  const country = pilots.pilots.filter(c => c.continent == req.params.continent);
-  if(!country) return res.status(404).send('Equipo no encontrado')
-  else res.send(country)
-})
-
 
 const port = 82;
 app.listen(port, () => console.log(`Escuchando en el puerto ${port}...`))
+
