@@ -1,54 +1,46 @@
-const User = require('../model/user');
 const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
 
 const UserSchema = new mongoose.Schema({
   username: {
     type: String,
-    required: true
+    required: true,
+    unique: true,
   },
   password: {
     type: String,
-    required: true
+    required: true,
   },
-  email: {
+  role: {
     type: String,
-    required: true
+    enum: ['user', 'admin'],
+    default: 'user',
   },
-  createdAt: {
-    type: Date,
-    default: Date.now
+});
+
+UserSchema.pre('save', async function (next) {
+  const user = this;
+
+  if (!user.isModified('password')) {
+    return next();
+  }
+
+  try {
+    const salt = await bcrypt.genSalt(10);
+    const hash = await bcrypt.hash(user.password, salt);
+    user.password = hash;
+    next();
+  } catch (err) {
+    return next(err);
   }
 });
 
+UserSchema.methods.comparePassword = async function (candidatePassword) {
+  try {
+    return await bcrypt.compare(candidatePassword, this.password);
+  } catch (err) {
+    throw new Error(err);
+  }
+};
+
 module.exports = mongoose.model('User', UserSchema);
-
-exports.getUsers = async (req, res) => {
-  const users = await User.fetchAll();
-  res.send(users);
-};
-
-exports.getUserById = async (req, res) => {
-  const user = await User.findById(req.params.id);
-  res.send(user);
-};
-
-exports.postUser = async (req, res) => {
-  const { name, email } = req.body;
-  const user = new User(null, name, email);
-  await user.save();
-  res.status(201).send(user);
-};
-
-exports.putUser = async (req, res) => {
-  const { id } = req.params;
-  const { name, email } = req.body;
-  const user = new User(id, name, email);
-  await user.save();
-  res.send(user);
-};
-
-exports.deleteUser = async (req, res) => {
-  const { id } = req.params;
-  await User.deleteById(id);
-  res.send();
-};
