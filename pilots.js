@@ -246,6 +246,6 @@ app.get('/api/pilot/team/:team', (req,res) => {
     else res.send(country)
 })
 
-const port = 82;
+const port = process.env.PORT;
 app.listen(port, () => console.log(`Escuchando en el puerto ${port}...`))
 

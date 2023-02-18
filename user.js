@@ -1,7 +1,7 @@
 const express = require("express");
 const jsonfile = require("jsonfile");
 const app = express();
-const port = 83;
+const port = process.env.PORT;
 
 // Middleware to parse JSON data in request body
 app.use(express.json());
@@ -16,7 +16,6 @@ app.get("/users", (req, res) => {
     res.json(data.users);
   });
 });
-
 // Get a single user by ID
 app.get("/users/:id", (req, res) => {
   const id = req.params.id;
@@ -32,10 +31,6 @@ app.get("/users/:id", (req, res) => {
     res.json(user);
   });
 });
-
-// Create a new user
-
-
 // Update an existing user
 app.put("/users/:id", (req, res) => {
   const id = req.params.id;
@@ -83,7 +78,7 @@ app.delete("/users/:id", (req, res) => {
     });
   });
 });
-
+//Create a user
 app.post("/users", (req, res) => {
   const newUser = req.body;
   jsonfile.readFile("users.json", (err, data) => {
@@ -105,6 +100,8 @@ app.post("/users", (req, res) => {
     });
   });
 });
+
+//Get if user exists
 app.post('/login', (req, res) => {
   const { email, password } = req.body;
   jsonfile.readFile("users.json", (error, data) => {
