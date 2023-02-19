@@ -6,9 +6,6 @@ const app = express()
 
 //Aqui les creo un endpoint distinto para cada api y poder ejecutarlas a la vez, 
 //lo hago de esta manera ya que en un principio lo hice por separado
-app.get('/', (req, res) => {
-    res.send('Aplicacion Funcional');
-  });
 app.use('/equipos', equipos);
 app.use('/pilotos', pilotos)
 app.use('/users', users)
