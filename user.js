@@ -1,7 +1,6 @@
 const express = require("express");
 const jsonfile = require("jsonfile");
 const app = express();
-const port = process.env.PORT;
 
 // Middleware to parse JSON data in request body
 app.use(express.json());
@@ -116,6 +115,4 @@ app.post('/login', (req, res) => {
 });
 
 
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
-});
+module.exports = app
