@@ -55,6 +55,7 @@ app.put("/users/:id", (req, res) => {
   });
 });
 
+//Delete a user
 app.delete("/users/:id", (req, res) => {
   const id = req.params.id;
   jsonfile.readFile("users.json", (err, data) => {
@@ -100,7 +101,7 @@ app.post("/users", (req, res) => {
   });
 });
 
-//Get if user exists
+//Get if user exists (el id va por el body)
 app.post('/login', (req, res) => {
   const { email, password } = req.body;
   jsonfile.readFile("users.json", (error, data) => {

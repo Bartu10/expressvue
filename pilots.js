@@ -2,6 +2,7 @@ const express = require('express')
 const app = express();
 
 app.use(express.json())
+//El JSON con los pilotos, lo he colocado aqui debido a que me resulta mas sencillo para la realizacion de los endpoints
 const pilots = {
 "pilots" : [
     { "id" : 1,
@@ -225,21 +226,22 @@ const pilots = {
   }
 ]}
 
+//Endpoint base para saber si funciona
 app.get('/', (req, res) => {
     res.send('Node JS api');
   });
-  
+//Recibe todos los pilotos
 app.get('/api/pilots', (req, res) => {
   res.send(pilots.pilots);
   });
-
+//Recibe un piloto concreto
 app.get('/api/pilot/:id', (req, res) => {
     console.log(pilots.pilots)
     const pilot = pilots.pilots.find(c => c.id === parseInt(req.params.id));
     if(!pilot) return res.status(404).send('Equipo no encontrado')
     else res.send(pilot)
 });
-
+//Recibe los pilotos filtrado por equipos
 app.get('/api/pilot/team/:team', (req,res) => {
     const country = pilots.pilots.filter(c => c.team == req.params.team);
     if(!country) return res.status(404).send('Equipo no encontrado')

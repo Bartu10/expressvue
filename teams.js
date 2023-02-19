@@ -2,6 +2,7 @@ const express = require('express')
 const app = express();
 
 app.use(express.json())
+//El JSON con los equipos, lo he colocado aqui debido a que me resulta mas sencillo para la realizacion de los endpoints
 const teams = {
     "teams": [
       { "id" : 1,
@@ -66,21 +67,21 @@ const teams = {
       },
     ]
   }
-
+//Endpoint base para saber si funciona
   app.get('/', (req, res) => {
     res.send('Node JS api');
   });
-
+//Recibes todos los equipos
   app.get('/api/teams', (req, res) => {
     res.send(teams);
   });
-
+//Recibes los equipos por id
   app.get('/api/teams/:id', (req, res) => {
     const team = teams.teams.find(c => c.id === parseInt(req.params.id));
     if(!team) return res.status(404).send('Equipo no encontrado')
     else res.send(team)
 })
-
+//Recibes los equipos por nacionalidad
   app.get('/api/teams/country/:nationality', (req, res) => {
     const country = teams.teams.filter(c => c.nationality == req.params.nationality);
     if(!country) return res.status(404).send('Equipo no encontrado')
