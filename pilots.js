@@ -248,4 +248,10 @@ app.get('/api/pilot/team/:team', (req,res) => {
     else res.send(country)
 })
 
+app.get('/api/pilot/country/:country', (req,res) => {
+  const country = pilots.pilots.filter(c => c.team == req.params.country);
+  if(!country) return res.status(404).send('Equipo no encontrado')
+  else res.send(country)
+})
+
 module.exports = app
