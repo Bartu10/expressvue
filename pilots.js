@@ -218,7 +218,7 @@ const pilots = {
     "name": "Logan Sargeant",
     "number": 2,
     "championships": 0,
-    "continent" : "No",
+    "continent" : "America",
     "puntuacion" : 1.5,
     "team": "Williams",
     "wins" : 0,
